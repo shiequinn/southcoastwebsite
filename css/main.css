@@ -727,13 +727,17 @@ color: gray;
   }
   .nav-item a:hover {
     color:rgb(99, 95, 95);
-    text-underline-position: solid 2px black;
+    text-decoration: underline solid 1px gray;
   }
   /* Show menu when open class is added */
   .nav-menu.open {
     display: flex;
     max-height: 350px; /* Arbitrary large value to allow full menu to show */
 
+  }
+    .nav-item a:hover {
+    color:rgb(99, 95, 95);
+    text-decoration: underline solid 1px gray;
   }
 
 
