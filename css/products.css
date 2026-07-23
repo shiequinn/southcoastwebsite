@@ -220,7 +220,6 @@ color: gray;
   overflow: visible;
   transition: none;
 }
-
 /* Media queries for responsive design */
 @media(max-width:1024px){
   .header-container{
@@ -236,7 +235,6 @@ color: gray;
     gap:5px;
 
   }
-
 }
 @media(max-width:840px){
     .header-container{
@@ -312,9 +310,6 @@ color: gray;
     align-items: center;
 
 }
-hr{
-  font-size: small;
-}
 .container .logo img{
   width:270px;
 }
@@ -354,7 +349,7 @@ hr{
 }
 
 @media(max-width: 480px) {
- .header-container{
+   .header-container{
     width:100%;
     height:350px;
     display: flex;
@@ -366,137 +361,6 @@ hr{
 
 }
   .container {
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;  
-  }
-  .container .logo {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-  .container .logo img {
-    width: 350px;
-    height: auto;
-  }
-  .social-media h3,
-  .call-to-action h3, 
-  hr {
-    display: none;
-  }
-  .call-to-action {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 0;
-    margin: 0;
-  }
-  .call-to-action a {
-    font-size: 16px;
-    padding: 5px;
-  }
-  .social-media {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  .social-icons a {  
-    color: black;
-    border-bottom: 2px solid black;
-    padding-bottom: 5px;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-    margin-right: 10px;
-  }
-  .social-icons a:hover {
-    color: #f2f2f2;
-    border: 1px solid gray;
-    background-color: gray;
-  }
-  #comment-icon, #phone-icons {
-    color: black;
-    font-size: 25px;
-    flex-direction: column;
-  }
-  .hamburger {
-    display: flex;
-    color: #333;
-    width: 25px;
-    height: 25px;
-    cursor: pointer; /* Make it clear it's clickable */
-  }
-  .nav-item a {
-    width: 100%;
-    height: 100%;
-    font-size: 18px;
-  }
-  .nav-item a:hover {
-    padding: 10px;
-    color:gray;
-  }
-
-  /* Show menu when open class is added */
-  .nav-menu.open {
-    display: flex;
-    max-height: 350px; /* Arbitrary large value to allow full menu to show */
-    overflow: auto; /* Allow scrolling if menu exceeds viewport height */
-  }
-  .nav-container{
-    width:100%;
-    height:100%;
-    display: flex;
-    align-items:center;
-    text-align: center;
-    justify-content: center;
-   
-
-  }
-
-   .nav-menu {
-    width:100%;
-    height:auto;
-    display:none; /* Hidden by default */
-    flex-direction: column;
-    overflow: hidden;
-    margin-top: 10px;
-    padding:10px;
-    margin-bottom: 5px;
-    cursor: pointer;
-  }
-  ul li a{
-    color: black;
-    text-decoration:none;
-    padding: 10px;
-    gap:10px;
-    margin: 10px 0; /* Add some margin between items */
-  }
-  ul li a:hover{
-    color: white;
-    background-color: #333;
-  
-  }
-
-
-}
-@media(max-width: 430px){
-  .header-container{
-    width:100%;
-    height:350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin:0;
-    padding:0;  
-}
-.container {
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -545,7 +409,7 @@ hr{
     font-size: 20px;
     padding: 10px;
     margin-right: 10px;
-  } 
+  }
   .social-icons a:hover {
     color: #f2f2f2;
 
@@ -565,17 +429,19 @@ hr{
   .nav-item a {
     width: 100%;
     height: 100%;
-    font-size: 18px;
+    font-size: 21px;
+    gap:10px;
+    padding:20px;
+    
   }
   .nav-item a:hover {
-    padding: 10px;
-    color:white;
+    color:rgb(99, 95, 95);
   }
   /* Show menu when open class is added */
   .nav-menu.open {
     display: flex;
     max-height: 350px; /* Arbitrary large value to allow full menu to show */
-    overflow: auto; /* Allow scrolling if menu exceeds viewport height */
+
   }
 
    .nav-menu {
@@ -592,21 +458,124 @@ hr{
     text-align: center;
     justify-content:center;
   }
-  ul li a{
-    color: black;
-    text-decoration:none;
-    padding: 10px;
-    gap:10px;
-    margin: 10px 0; /* Add some margin between items */
-  }
-  ul li a:hover{
-    color: white;
-    background-color: #333;
-  
-  }
+
+
 
 }
+@media(max-width: 430px){
+   .header-container{
+    width:100%;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0;
+    padding:0;
 
+}
+  .container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;  
+  }
+  .container .logo {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .container .logo img {
+    width: 330px;
+    height: auto;
+  }
+  .social-media h3,
+  .call-to-action h3,hr
+{
+    display: none;
+  }
+  .call-to-action {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 0;
+  }
+  .call-to-action a {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .social-media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .social-icons a {  
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .social-icons a:hover {
+    color: #f2f2f2;
+
+  }
+  #comment-icon, #phone-icons {
+    color: black;
+    font-size: 25px;
+    flex-direction: column;
+  }
+  .hamburger {
+    display: flex;
+    color: #333;
+    width: 25px;
+    height: 25px;
+    cursor: pointer; /* Make it clear it's clickable */
+  }
+  .nav-item a {
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    gap:10px;
+    padding:20px;
+    
+  }
+  .nav-item a:hover {
+    color:rgb(99, 95, 95);
+  }
+  /* Show menu when open class is added */
+  .nav-menu.open {
+    display: flex;
+    max-height: 350px; /* Arbitrary large value to allow full menu to show */
+
+  }
+
+   .nav-menu {
+    width:100%;
+    height:auto;
+    display:none; /* Hidden by default */
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 10px;
+    padding:10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+     align-items:center;
+    text-align: center;
+    justify-content:center;
+  }
+
+
+
+}
 
 
 @media(max-width: 380px) {
@@ -690,17 +659,19 @@ hr{
   .nav-item a {
     width: 100%;
     height: 100%;
-    font-size: 18px;
+    font-size: 21px;
+    gap:10px;
+    padding:20px;
+    
   }
   .nav-item a:hover {
-    padding: 10px;
-    color:white;
+    color:rgb(99, 95, 95);
   }
   /* Show menu when open class is added */
   .nav-menu.open {
     display: flex;
     max-height: 350px; /* Arbitrary large value to allow full menu to show */
-    overflow: auto; /* Allow scrolling if menu exceeds viewport height */
+
   }
 
    .nav-menu {
@@ -710,24 +681,14 @@ hr{
     flex-direction: column;
     overflow: hidden;
     margin-top: 10px;
-    padding:20px;
-    margin-bottom: 10px;
+    padding:10px;
+    margin-bottom: 5px;
     cursor: pointer;
      align-items:center;
     text-align: center;
     justify-content:center;
   }
-  ul li a{
-    color: black;
-    text-decoration:none;
-    padding: 10px;
-    margin: 15px 0; /* Add some margin between items */
-  }
-  ul li a:hover{
-    color: white;
-    background-color: #333;
-  
-  }
+
 
 
 }
