@@ -2,7 +2,7 @@
 margin:0;
 padding:0;
 box-sizing: border-box;
-font-family: 'Open Sans', sans-serif;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 
 }
@@ -843,6 +843,251 @@ border-radius: 5px;
   background-color: rgb(143, 136, 7);
 }
 
+@media(max-width: 1024px){
+ .repairs-container{
+    width:100%;
+    height:100%;
+    text-align: start;
+
+  }
+  .description{
+    margin-top: 10px;
+    width:100%;
+    height:100%;
+  }
+  .description p{
+    margin-left:-20px;
+    text-align: start;
+  }
+  .quote-container{
+    width:100%;
+    height:150px;
+  }
+  .quote-overlay img{
+    width:100%;
+    height:150px;
+  }
+}
+@media(max-width: 840px){
+  .repairs-container{
+    width:100%;
+    height:100%;
+    text-align:start;
+
+  }
+  .description{
+    margin-top: 10px;
+    width:100%;
+    height:100%;
+  }
+  .description p{
+    margin-left:-20px;
+    text-align: start;
+  }
+  .quote-container{
+    width:100%;
+    height:150px;
+  }
+  .quote-overlay img{
+    width:100%;
+    height:150px;
+  }
+}
+@media(max-width: 768px){
+ .repairs-container{
+    width:100%;
+    height:100%;
+    text-align:start;
+
+  }
+  .description{
+    margin-top: 10px;
+    width:100%;
+    height:100%;
+  }
+  .description p{
+    margin-left:-20px;
+    text-align: start;
+  }
+  .quote-container{
+    width:100%;
+    height:150px;
+  }
+  .quote-overlay img{
+    width:100%;
+    height:150px;
+  }
+}
+@media(max-width: 480px){
+ .repairs{
+  width:100%;
+  height:100%;
+  margin-left: -15px;
+
+
+ }
+ .repairs-container{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+  text-align: start;
+ }
+ .repairs-contain{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+ }
+.description{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+  text-align: start;
+  align-items:start;
+  padding:10px;
+
+
+}
+.description h2{
+  text-align: start;
+}
+.description p{
+  width:100%;
+  padding:15px;
+
+
+}
+.image-title{
+  background-color:rgba(132, 130, 130, 0.374);
+}
+.image-title-container{
+  margin-left:-5px;
+}
+
+.quote-container{
+  width:100%;
+  height:200px;
+}
+.quote-overlay img{
+  width:100%;
+  height:200px;
+}
+
+}
+
+@media(max-width: 430px){
+ .repairs{
+  width:100%;
+  height:100%;
+  margin-left: -15px;
+
+
+ }
+ .repairs-container{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+  text-align: start;
+ }
+ .repairs-contain{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+ }
+.description{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+  text-align: start;
+  align-items:start;
+  padding:10px;
+
+
+}
+.description h2{
+  text-align: start;
+}
+.description p{
+  width:100%;
+  padding:15px;
+
+
+}
+.image-title{
+  background-color:rgba(132, 130, 130, 0.374);
+}
+.image-title-container{
+  margin-left:-5px;
+}
+
+.quote-container{
+  width:100%;
+  height:200px;
+}
+.quote-overlay img{
+  width:100%;
+  height:200px;
+}
+
+}
+
+
+@media(max-width : 380px){
+ .repairs{
+  width:100%;
+  height:100%;
+  margin-left: -15px;
+  text-align: center;
+  align-items: center;
+
+
+ }
+ .repairs-container{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+  text-align: start;
+ }
+ .repairs-contain{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+ }
+.description{
+  width:100%;
+  height:100%;
+  flex-direction: column;
+  text-align: start;
+  align-items:start;
+  padding:10px;
+
+
+}
+.description h2{
+  text-align: start;
+}
+.description p{
+  width:100%;
+  padding:15px;
+
+
+}
+.image-title{
+  background-color:rgba(132, 130, 130, 0.374);
+}
+.image-title-container{
+  margin-left:-5px;
+}
+
+.quote-container{
+  width:100%;
+  height:200px;
+}
+.quote-overlay img{
+  width:100%;
+  height:200px;
+}
+
+}
 
 
 /*FOOTER*/

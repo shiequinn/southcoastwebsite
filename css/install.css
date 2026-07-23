@@ -2,7 +2,7 @@
 margin:0;
 padding:0;
 box-sizing: border-box;
-font-family: 'Open Sans', sans-serif;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 
 }
@@ -846,7 +846,7 @@ border-radius: 5px;
  .install-container{
     width:100%;
     height:100%;
-    text-align: center;
+    text-align: start;
 
   }
   .description{
@@ -856,6 +856,7 @@ border-radius: 5px;
   }
   .description p{
     margin-left:-20px;
+    text-align: start;
   }
   .quote-container{
     width:100%;
@@ -870,7 +871,7 @@ border-radius: 5px;
   .install-container{
     width:100%;
     height:100%;
-    text-align: center;
+    text-align:start;
 
   }
   .description{
@@ -880,6 +881,7 @@ border-radius: 5px;
   }
   .description p{
     margin-left:-20px;
+    text-align: start;
   }
   .quote-container{
     width:100%;
@@ -894,7 +896,7 @@ border-radius: 5px;
  .install-container{
     width:100%;
     height:100%;
-    text-align: center;
+    text-align:start;
 
   }
   .description{
@@ -904,6 +906,7 @@ border-radius: 5px;
   }
   .description p{
     margin-left:-20px;
+    text-align: start;
   }
   .quote-container{
     width:100%;
@@ -923,10 +926,8 @@ border-radius: 5px;
  .install-container{
   width:100%;
   height:100%;
-  text-align: center;
-  align-items: center;
   flex-direction: column;
-  margin-left:10px;
+  text-align: start;
  }
  .install-contain{
   width:100%;
@@ -938,11 +939,20 @@ border-radius: 5px;
   height:100%;
   flex-direction: column;
 
-}
-.description h2{
-  align-self: center;
 
 }
+.description h2{
+  text-align: start;
+}
+.description p{
+  width:90%;
+  padding:15px;
+}
+
+.image-title-container{
+  margin-left:-5px;
+}
+
 .quote-container{
   width:100%;
   height:200px;
@@ -963,32 +973,32 @@ border-radius: 5px;
  .install-container{
   width:100%;
   height:100%;
-  text-align: center;
-  align-items: center;
   flex-direction: column;
-
- }
- .image-title-container{
-  margin-left: 50px;
+  text-align: start;
  }
  .install-contain{
   width:100%;
   height:100%;
   flex-direction: column;
  }
- .image-title-container{
-  margin-left:10px;
-}
 .description{
   width:100%;
   height:100%;
   flex-direction: column;
 
-}
-.description h2{
-  align-self: center;
 
 }
+.description h2{
+  text-align: start;
+}
+.description p{
+  width:90%;
+  padding:15px;
+}
+.image-title-container{
+  margin-left:-5px;
+}
+
 .quote-container{
   width:100%;
   height:200px;
@@ -1010,10 +1020,8 @@ border-radius: 5px;
  .install-container{
   width:100%;
   height:100%;
-  text-align: center;
-  align-items: center;
   flex-direction: column;
-  margin-left:10px;
+  text-align: start;
  }
  .install-contain{
   width:100%;
@@ -1025,10 +1033,14 @@ border-radius: 5px;
   height:100%;
   flex-direction: column;
 
+
 }
 .description h2{
-  align-self: center;
-
+  text-align: start;
+}
+.description p{
+  width:90%;
+  padding:15px;
 }
 .image-title-container{
   margin-left:-5px;

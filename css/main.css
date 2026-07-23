@@ -1030,6 +1030,76 @@ font-size: 16px;
 text-align: center;
 }
 
+/* media quiries*/
+@media(max-width: 840px){
+    .service-container{
+width:80%;
+height:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding:5px;
+  }
+  .services{
+    width: 100%;
+    height:100%;
+    flex-direction:row;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .service-item{
+    width: 350px;
+    height:300px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  
+
+   
+  }
+  .item-container{
+  width:100%;
+  height:100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content:space-between;
+  padding:10px;
+  gap:20px;
+  margin-left: 10px;
+  }
+  .item-container > .service-item:nth-child(5)
+   {
+    grid-column: span 2;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height:100%;
+    margin-top: 30px;
+    margin-left: 10px;
+
+  }
+
+  .service-item img{
+    width: 100px;
+    height: 100px;
+  }
+  .service-item h3{
+    font-size: 25px;
+  }
+  .service-item p{
+    font-size: 18px;
+  }
+
+}
+
+
 @media(max-width: 768px){
   .service-container{
 width:80%;
@@ -1221,6 +1291,62 @@ width: 80%;
 align-items: center;
 margin-left: 10%;
 }
+
+/* media Queries*/
+@media(max-width: 840px){
+ .projects-container{
+    flex-direction:column;
+    height: auto;
+    padding:0;
+    margin:0;
+  }
+  .project-item-container{
+    width:100%;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+
+  }
+  .project-item{
+    width:100%;
+    height: auto;
+    margin-bottom: 20px;
+    flex-direction:column;
+  }
+  
+}
+
+@media(max-width: 480px){
+  .projects-container{
+    flex-direction: column;
+    width:100%;
+    height: auto;
+    padding:0;
+    margin:0;
+  }
+  .project-item-container{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .project-item{
+    width: 100%;
+    height:100%;
+    margin-bottom: 20px;
+  }
+  .project-item h3{
+    font-size: 30px;
+  }
+  .project-item img{
+    height: 300px;
+    object-fit: cover;
+  }
+
+}
+
 @media(max-width: 768px){
 
   .projects-container{
