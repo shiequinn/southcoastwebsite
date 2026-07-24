@@ -62,16 +62,6 @@ html, body {
 
     }
 }
-/* Medium phones */
-@media (max-width: 375px) {
-    body {
-        font-size: 14px;
-        /* Slightly larger font for better readability */
-        overflow-x: hidden;
-        margin: 0;
-
-    }
-}
 
 
 h1{
@@ -134,10 +124,11 @@ justify-content: space-evenly;
 flex-direction: row;
 padding:20px;
 
+
 }
 .container .logo{
 width:50%;
-height: 100px; 
+height: 200px; 
 padding:5px;
 justify-content: center;
 align-items: center;
@@ -246,25 +237,29 @@ font-size: 25px;
 }
 nav{
 width:100%;
-height: 50px;
+height:20px;
 display: flex;
 justify-content: center;
 align-items: center;
-padding:20px;
 
 }
 nav ul{
 display: flex;
 list-style: none;
 padding:20px;
+margin-top: 20px;
 
 }
 nav ul li a{
+width:100%;
+height:20px;
 color: black;   
 text-decoration: none;
 flex-direction: row;
 font-size: 18px;
 padding:30px;
+
+
 }
 nav ul li a:hover{
 color: gray;
@@ -776,7 +771,7 @@ height:100%;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top:30px;
+margin-top:50px;
 
 }
 .section-container.hero-background{
@@ -807,13 +802,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-width:60%;
+width:70%;
 height: 100%;   
 gap:20px;
 }
 .hero-text h1{
+  width:100%;
   color: white; 
-  font-size:50px;
+  font-size:60px;
   text-align: center; 
   padding:10px;
   font-family: 'stratford', serif;
@@ -829,7 +825,7 @@ flex-direction: column;
 .sub-title h2{
 color: white;
 font-weight:600;
-font-size: 40px;
+font-size: 35px;
 font-family: 'Open Sans', sans-serif;
 padding: 10px;
 animation: quickTripleBounce 0.9s ease-in-out;
@@ -837,7 +833,7 @@ animation: quickTripleBounce 0.9s ease-in-out;
 
 .sub-title p{
 color: white;
-font-size: 40px;
+font-size: 35px;
 font-family: 'Open Sans', sans-serif;
 font-weight: 600;
 padding: 5px;
@@ -847,6 +843,7 @@ animation: quickTripleBounce 0.9s ease-in-out;
   position: relative; 
   z-index: 1; 
   padding: 1px;
+
   
 }
 @keyframes quickTripleBounce {
@@ -932,6 +929,9 @@ animation: quickTripleBounce 0.9s ease-in-out;
   }
 }
 @media(max-width: 480px){
+  .hero{
+    margin-top: 20px;
+  }
   .section-container.hero-background{
     height: 350px;
     width:100%
@@ -958,6 +958,9 @@ animation: quickTripleBounce 0.9s ease-in-out;
   }
 }
 @media(max-width: 380px){
+  .hero{
+    margin-top: 20px;
+  }
   .section-container.hero-background{
     height:350px;
     width:100%;
