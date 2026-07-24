@@ -200,6 +200,7 @@ padding:20px;
 nav ul{
 display: flex;
 list-style: none;
+padding:20px;
 }
 nav ul li a{
 color: black;   
@@ -221,6 +222,7 @@ color: gray;
   max-height: none;
   overflow: visible;
   transition: none;
+   z-index: 999;
 }
 
 /* Media queries for responsive design */
@@ -429,17 +431,26 @@ color: gray;
     height: 25px;
     cursor: pointer; /* Make it clear it's clickable */
   }
+  .nav-menu {
+  display: none;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
   .nav-item a {
     width: 100%;
     height: 100%;
     font-size: 21px;
-    gap:10px;
-    padding:20px;
+    margin: 10px;
+    padding: 10px 20px; /* Adjust as needed */
+    margin-left: 25px;
+
     
   }
   .nav-item a:hover {
     color:rgb(99, 95, 95);
+    text-decoration: underline solid 1px gray;
   }
+
   /* Show menu when open class is added */
   .nav-menu.open {
     display: flex;
@@ -447,21 +458,7 @@ color: gray;
 
   }
 
-   .nav-menu {
-    width:100%;
-    height:auto;
-    display:none; /* Hidden by default */
-    flex-direction: column;
-    overflow: hidden;
-    margin-top: 10px;
-    padding:10px;
-    margin-bottom: 5px;
-    cursor: pointer;
-     align-items:center;
-    text-align: center;
-    justify-content:center;
-  }
-
+ 
 
 
 }
@@ -543,16 +540,24 @@ color: gray;
     height: 25px;
     cursor: pointer; /* Make it clear it's clickable */
   }
+   .nav-menu {
+  display: none;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
   .nav-item a {
     width: 100%;
     height: 100%;
     font-size: 21px;
-    gap:10px;
-    padding:20px;
+    margin: 10px;
+    padding: 10px 20px; /* Adjust as needed */
+    margin-left: 25px;
+
     
   }
   .nav-item a:hover {
     color:rgb(99, 95, 95);
+    text-decoration: underline solid 1px gray;
   }
   /* Show menu when open class is added */
   .nav-menu.open {
@@ -560,21 +565,23 @@ color: gray;
     max-height: 350px; /* Arbitrary large value to allow full menu to show */
 
   }
-
-   .nav-menu {
+  .nav-menu {
     width:100%;
     height:auto;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 10px;
-    padding:10px;
+    margin-top: 200px;
     margin-bottom: 5px;
+    padding:30px;
     cursor: pointer;
      align-items:center;
-    text-align: center;
+    text-align: start;
     justify-content:center;
-  }
+    transition: max-height 0.3s ease;
+ 
+
+}
 
 
 
@@ -659,17 +666,24 @@ color: gray;
     height: 25px;
     cursor: pointer; /* Make it clear it's clickable */
   }
+  .nav-menu {
+  display: none;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
   .nav-item a {
     width: 100%;
     height: 100%;
     font-size: 21px;
-    gap:10px;
-    padding:20px;
+    margin: 10px;
+    padding: 10px 20px; /* Adjust as needed */
     margin-left: 25px;
+  outline: none;
     
   }
   .nav-item a:hover {
     color:rgb(99, 95, 95);
+    text-decoration: underline solid 1px gray;
   }
   /* Show menu when open class is added */
   .nav-menu.open {
@@ -677,7 +691,7 @@ color: gray;
     max-height: 350px; /* Arbitrary large value to allow full menu to show */
 
   }
-
+ 
    .nav-menu {
     width:100%;
     height:auto;
@@ -685,13 +699,14 @@ color: gray;
     flex-direction: column;
     overflow: hidden;
     margin-top: 10px;
-    padding:10px;
     margin-bottom: 5px;
     cursor: pointer;
      align-items:center;
     text-align: center;
     justify-content:center;
+    outline: none;
   }
+
 
 
 
