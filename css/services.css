@@ -501,7 +501,7 @@ color: gray;
   }
   .nav-item a:hover {
     color:rgb(99, 95, 95);
-    text-decoration: underline solid 1px gray;
+    text-decoration: underline solid 3px gray;
   }
   /* Show menu when open class is added */
   .nav-menu.open {
@@ -626,7 +626,7 @@ color: gray;
   }
   .nav-item a:hover {
     color:rgb(99, 95, 95);
-    text-decoration: underline solid 1px gray;
+    text-decoration: underline solid 3px gray;
   }
   /* Show menu when open class is added */
   .nav-menu.open {
@@ -752,7 +752,7 @@ color: gray;
   }
   .nav-item a:hover {
     color:rgb(99, 95, 95);
-    text-decoration: underline solid 1px gray;
+    text-decoration: underline solid 3px gray;
   }
   /* Show menu when open class is added */
   .nav-menu.open {
