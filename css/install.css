@@ -405,7 +405,7 @@ color: gray;
   }
 }
 
-@media(max-width: 480px) {
+@media(max-width: 480px){
    .header-container{
     width:100%;
     height:350px;
@@ -483,7 +483,7 @@ color: gray;
     height: 25px;
     cursor: pointer; /* Make it clear it's clickable */
   }
-  .nav-menu {
+   .nav-menu {
   display: none;
   transition: max-height 0.3s ease;
   overflow: hidden;
@@ -502,18 +502,36 @@ color: gray;
     color:rgb(99, 95, 95);
     text-decoration: underline solid 1px gray;
   }
-
   /* Show menu when open class is added */
   .nav-menu.open {
     display: flex;
     max-height: 350px; /* Arbitrary large value to allow full menu to show */
 
   }
-
+  .nav-menu {
+    width:100%;
+    height:auto;
+    display:none; /* Hidden by default */
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding:30px;
+    cursor: pointer;
+     align-items:center;
+    text-align: start;
+    justify-content:center;
+    transition: max-height 0.3s ease;
  
+
+}
+
 
 
 }
+
+
+
 @media(max-width: 430px){
    .header-container{
     width:100%;
@@ -623,7 +641,7 @@ color: gray;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 200px;
+    margin-top: 30px;
     margin-bottom: 5px;
     padding:30px;
     cursor: pointer;
@@ -750,7 +768,7 @@ color: gray;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 5px;
     cursor: pointer;
      align-items:center;
@@ -988,6 +1006,10 @@ border-radius: 5px;
   }
 }
 @media(max-width: 480px){
+  .inside-install{
+    margin-top: 80px;
+  }
+
   .install{
   width:100%;
   height:100%;
@@ -1036,6 +1058,9 @@ border-radius: 5px;
 }
 
 @media(max-width: 430px){
+   .inside-install{
+    margin-top: 80px;
+  }
   .install{
   width:100%;
   height:100%;
@@ -1084,6 +1109,9 @@ border-radius: 5px;
 
 
 @media(max-width : 380px){
+   .inside-install{
+    margin-top: 80px;
+  }
  .install{
   width:100%;
   height:100%;

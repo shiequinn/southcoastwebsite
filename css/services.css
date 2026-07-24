@@ -482,51 +482,56 @@ color: gray;
     width: 25px;
     height: 25px;
     cursor: pointer; /* Make it clear it's clickable */
-    margin-top: 150px;
+    margin-top: 200px;
   }
+  .nav-menu {
+  display: none;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+  .nav-item a {
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    margin: 10px;
+    padding: 10px 20px; /* Adjust as needed */
+    margin-left: 25px;
+  outline: none;
+    
+  }
+  .nav-item a:hover {
+    color:rgb(99, 95, 95);
+    text-decoration: underline solid 1px gray;
+  }
+  /* Show menu when open class is added */
+  .nav-menu.open {
+    display: flex;
+    max-height: 350px; /* Arbitrary large value to allow full menu to show */
+
+  }
+ 
    .nav-menu {
     width:100%;
     height:auto;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 200px;
-    margin-bottom: 5px;
-    padding:30px;
+    margin-top: 250px;
+    margin-bottom: 10px;
     cursor: pointer;
      align-items:center;
-    text-align: start;
+    text-align: center;
     justify-content:center;
-    transition: max-height 0.3s ease;
- 
-
-}
-
-  .nav-item a {
-    width: 100%;
-    height: 100%;
-    font-size: 21px;
-    margin: 10px;
-    margin-left: 25px;
-
-    
+    outline: none;
   }
-  .nav-item a:hover {
-    color:gray;
-    text-decoration: underline solid 1px gray;
-  }
-  /* Show menu when open class is added */
-  .nav-menu.open {
-    display: flex;
-    max-height: 400px; /* Arbitrary large value to allow full menu to show */
-   
 
-  }
+
+
 
 }
 
 @media(max-width: 430px){
-  .header-container{
+   .header-container{
     width:100%;
     height:350px;
     display: flex;
@@ -602,49 +607,53 @@ color: gray;
     width: 25px;
     height: 25px;
     cursor: pointer; /* Make it clear it's clickable */
-    margin-top: 150px;
+    margin-top: 200px;
   }
+  .nav-menu {
+  display: none;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+  .nav-item a {
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    margin: 10px;
+    padding: 10px 20px; /* Adjust as needed */
+    margin-left: 25px;
+  outline: none;
+    
+  }
+  .nav-item a:hover {
+    color:rgb(99, 95, 95);
+    text-decoration: underline solid 1px gray;
+  }
+  /* Show menu when open class is added */
+  .nav-menu.open {
+    display: flex;
+    max-height: 350px; /* Arbitrary large value to allow full menu to show */
+
+  }
+ 
    .nav-menu {
     width:100%;
     height:auto;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 200px;
-    margin-bottom: 5px;
-    padding:30px;
+    margin-top: 250px;
+    margin-bottom: 10px;
     cursor: pointer;
      align-items:center;
-    text-align: start;
+    text-align: center;
     justify-content:center;
-    transition: max-height 0.3s ease;
- 
+    outline: none;
+  }
+
+
+
 
 }
-
-  .nav-item a {
-    width: 100%;
-    height: 100%;
-    font-size: 21px;
-    margin: 10px;
-    margin-left: 25px;
-
-    
-  }
-  .nav-item a:hover {
-    color:gray;
-    text-decoration: underline solid 1px gray;
-  }
-  /* Show menu when open class is added */
-  .nav-menu.open {
-    display: flex;
-    max-height: 400px; /* Arbitrary large value to allow full menu to show */
-   
-
-  }
-
-}
-
 
 
 @media(max-width: 380px) {
@@ -724,46 +733,51 @@ color: gray;
     width: 25px;
     height: 25px;
     cursor: pointer; /* Make it clear it's clickable */
-    margin-top: 150px;
+    margin-top: 200px;
   }
+  .nav-menu {
+  display: none;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+  .nav-item a {
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    margin: 10px;
+    padding: 10px 20px; /* Adjust as needed */
+    margin-left: 25px;
+  outline: none;
+    
+  }
+  .nav-item a:hover {
+    color:rgb(99, 95, 95);
+    text-decoration: underline solid 1px gray;
+  }
+  /* Show menu when open class is added */
+  .nav-menu.open {
+    display: flex;
+    max-height: 350px; /* Arbitrary large value to allow full menu to show */
+
+  }
+ 
    .nav-menu {
     width:100%;
     height:auto;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 200px;
-    margin-bottom: 5px;
-    padding:30px;
+    margin-top: 250px;
+    margin-bottom: 10px;
     cursor: pointer;
      align-items:center;
-    text-align: start;
+    text-align: center;
     justify-content:center;
-    transition: max-height 0.3s ease;
- 
-
-}
-
-  .nav-item a {
-    width: 100%;
-    height: 100%;
-    font-size: 21px;
-    margin: 10px;
-    margin-left: 25px;
-
-    
+    outline: none;
   }
-  .nav-item a:hover {
-    color:gray;
-    text-decoration: underline solid 1px gray;
-  }
-  /* Show menu when open class is added */
-  .nav-menu.open {
-    display: flex;
-    max-height: 400px; /* Arbitrary large value to allow full menu to show */
-   
 
-  }
+
+
 
 }
 
@@ -1012,7 +1026,7 @@ padding:10px;
   .inside-services{
     width:100%;
     height:100%;
-    margin-top: 150px;
+    margin-top: 200px;
   }
 
   .description{
@@ -1061,7 +1075,7 @@ padding:10px;
   .inside-services{
     width:100%;
     height:100%;
-    margin-top: 150px;
+    margin-top: 200px;
   }
 
   .description{
@@ -1109,7 +1123,7 @@ padding:10px;
   .inside-services{
     width:100%;
     height:100%;
-    margin-top: 150px;
+    margin-top: 220px;
   }
 
   .description{

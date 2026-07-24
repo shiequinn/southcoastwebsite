@@ -279,6 +279,7 @@ color: gray;
 
 /* Media queries for responsive design */
 @media(max-width:1024px){
+  
   .header-container{
     width:90%;
     height: 200px;
@@ -406,7 +407,7 @@ color: gray;
 }
 
 @media(max-width: 480px) {
-   .header-container{
+  .header-container{
     width:100%;
     height:350px;
     display: flex;
@@ -495,25 +496,40 @@ color: gray;
     margin: 10px;
     padding: 10px 20px; /* Adjust as needed */
     margin-left: 25px;
-
+  outline: none;
     
   }
   .nav-item a:hover {
     color:rgb(99, 95, 95);
     text-decoration: underline solid 1px gray;
   }
-
   /* Show menu when open class is added */
   .nav-menu.open {
     display: flex;
     max-height: 350px; /* Arbitrary large value to allow full menu to show */
 
   }
-
  
+   .nav-menu {
+    width:100%;
+    height:auto;
+    display:none; /* Hidden by default */
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+     align-items:center;
+    text-align: center;
+    justify-content:center;
+    outline: none;
+  }
+
+
 
 
 }
+
 @media(max-width: 430px){
    .header-container{
     width:100%;
@@ -592,7 +608,7 @@ color: gray;
     height: 25px;
     cursor: pointer; /* Make it clear it's clickable */
   }
-   .nav-menu {
+  .nav-menu {
   display: none;
   transition: max-height 0.3s ease;
   overflow: hidden;
@@ -604,7 +620,7 @@ color: gray;
     margin: 10px;
     padding: 10px 20px; /* Adjust as needed */
     margin-left: 25px;
-
+  outline: none;
     
   }
   .nav-item a:hover {
@@ -617,23 +633,22 @@ color: gray;
     max-height: 350px; /* Arbitrary large value to allow full menu to show */
 
   }
-  .nav-menu {
+ 
+   .nav-menu {
     width:100%;
     height:auto;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 200px;
-    margin-bottom: 5px;
-    padding:30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     cursor: pointer;
      align-items:center;
-    text-align: start;
+    text-align: center;
     justify-content:center;
-    transition: max-height 0.3s ease;
- 
+    outline: none;
+  }
 
-}
 
 
 
@@ -750,8 +765,8 @@ color: gray;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     cursor: pointer;
      align-items:center;
     text-align: center;
@@ -928,9 +943,68 @@ animation: quickTripleBounce 0.9s ease-in-out;
     font-size: 25px;
   }
 }
-@media(max-width: 480px){
+@media(max-width:480px){
   .hero{
-    margin-top: 20px;
+    margin-top: 60px;
+  }
+  .section-container.hero-background{
+    height: 350px;
+    width:100%
+  }
+  .text-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .hero-text h1{
+    font-size: 40px;
+    width:400px;
+    text-align: center;
+  }
+  .sub-title h2{
+    font-size: 20px;
+  }
+  .sub-title p{
+    font-size: 20px;
+  }
+}
+@media(max-width: 430px){
+  .hero{
+    margin-top: 60px;
+  }
+  .section-container.hero-background{
+    height:400px;
+    width:100%;
+  }
+  .text-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .hero-text h1{
+  font-size: 33px;
+  width:400px;
+  text-align: center;
+} 
+.sub-title h2{
+  font-size: 18px;
+}
+.sub-title p{
+  font-size: 18px;
+}
+} 
+
+@media(max-width: 380px){
+ .hero{
+    margin-top: 60px;
   }
   .section-container.hero-background{
     height: 350px;
@@ -959,10 +1033,10 @@ animation: quickTripleBounce 0.9s ease-in-out;
 }
 @media(max-width: 380px){
   .hero{
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .section-container.hero-background{
-    height:350px;
+    height:400px;
     width:100%;
   }
   .text-container{
@@ -980,10 +1054,10 @@ animation: quickTripleBounce 0.9s ease-in-out;
   text-align: center;
 } 
 .sub-title h2{
-  font-size: 20px;
+  font-size: 18px;
 }
 .sub-title p{
-  font-size: 20px;
+  font-size: 18px;
 }
 } 
 
