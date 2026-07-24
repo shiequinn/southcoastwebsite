@@ -515,7 +515,7 @@ color: gray;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 10px;
     cursor: pointer;
      align-items:center;
@@ -640,7 +640,7 @@ color: gray;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 10px;
     cursor: pointer;
      align-items:center;
@@ -765,7 +765,7 @@ color: gray;
     display:none; /* Hidden by default */
     flex-direction: column;
     overflow: hidden;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 10px;
     cursor: pointer;
      align-items:center;
@@ -945,7 +945,7 @@ animation: quickTripleBounce 0.9s ease-in-out;
 }
 @media(max-width:480px){
   .hero{
-    margin-top: 100px;
+    margin-top: 120px;
   }
   .section-container.hero-background{
     height: 350px;
@@ -974,7 +974,7 @@ animation: quickTripleBounce 0.9s ease-in-out;
 }
 @media(max-width: 430px){
   .hero{
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .section-container.hero-background{
     height:400px;
@@ -1004,7 +1004,7 @@ animation: quickTripleBounce 0.9s ease-in-out;
 
 @media(max-width: 380px){
  .hero{
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .section-container.hero-background{
     height: 350px;
@@ -1033,7 +1033,7 @@ animation: quickTripleBounce 0.9s ease-in-out;
 }
 @media(max-width: 380px){
   .hero{
-    margin-top: 60px;
+    margin-top: 80px;
   }
   .section-container.hero-background{
     height:400px;
